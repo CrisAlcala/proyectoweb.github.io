@@ -1,0 +1,396 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif ;
+}
+
+.stats {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    font-size: .6em;
+    background-color: #04548c;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: -.5em;
+}
+
+.stats img {
+    width: 1.5em;
+}
+
+.stats em {
+    font-style: normal;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.contStats button {
+    width: 2em;
+    border: none;
+    background-color: #04345c ;
+    border-radius: 4px;
+    padding-top: .1em;
+    padding-bottom: .15em;
+    padding-left: .3em;
+    padding-right: 1.6em;
+    margin-left: .5em;
+}
+
+.contStats button:hover {
+    box-shadow: white 1px 2px 20px;
+}
+
+.header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    margin-top: 2em;
+    background-color: #f8f9fa; /*#fffcfc*/
+    box-shadow: 0 4px 59px -20px black;
+    height: 3.8em;
+}
+
+input {
+    border: .1px solid rgba(210,223,234,255);
+    border-radius: 4px;
+    padding-left: 2em;
+    width: 11em;
+    height: 2.2em;
+}
+
+
+input:focus {
+    border: 3px solid rgba(210,223,234,255);
+    outline: none;
+}
+
+.imgHeader img {
+    margin-left: 19em;
+    width: 9.5%;
+    padding-top: .2em;
+    padding-bottom: .2em;
+}
+
+.login {
+    width: 100%;
+    height: 2em;
+    margin-top: -3em;
+}
+
+.loginUser {
+    margin-left: 57em;
+    margin-top: -2em;
+}
+
+.loginUser img {
+    position: absolute;
+    border-right: 1px solid rgba(210,223,234,255);
+    padding-right: .3em;
+    padding-top: .4em;
+    padding-bottom: .49em;
+    margin-left: .4em;
+    width: 1%;
+}
+
+.loginPass {
+    margin-top: -1.9em;
+    margin-left: 67em;
+}
+
+.loginPass > img {
+    position: absolute;
+    border-right: 1px solid rgba(210,223,234,255);
+    padding-right: .3em;
+    padding-top: .4em;
+    padding-bottom: .49em;
+    margin-left: .4em;
+    width: 1%;
+}
+
+.loginPass button {
+    border: none;
+    background-color: #04345c3d;
+    width: 6%;
+    height: 2.1em;
+    border-radius: 0px 4px 4px 0px;
+    margin-left: -4em;
+}
+
+.loginPass button:hover {
+    background-color: #04345c5d;
+    cursor: pointer;
+}
+
+.loginSubmit {
+    margin-left: 76.7em;
+    margin-top: -1.8em;
+}
+
+.loginSubmit button {
+    background-color: rgba(4,118,179,255);
+    color: white;
+    border: none;
+    height: 2em;
+    padding-left: .5em;
+    padding-right: .5em;
+    border-radius: 3px;
+}
+
+.loginSubmit button:hover {
+    background-color: #035e8f;
+    cursor: pointer;
+}
+
+.accesos {
+    margin-left: 81em;
+    margin-top: -2.1em;
+}
+
+.accesos a {
+    text-decoration: none;
+    color: #035e8f;
+    font-size: .6em;
+}
+
+.accesos a:hover {
+    text-decoration: none;
+    color: #00a6ff;
+}
+
+::placeholder {
+    font-size: .9em;
+}
+
+ul li {
+    color: #035e8f;
+    font-weight: bold;
+    margin-left: 20em;
+    margin-top: 1.5em;
+    font-size: 1.3em;
+    max-width: 47%;
+    list-style: square;
+}
+
+.slider {
+    padding-top: 5.9em;
+}
+
+.section {
+    margin-bottom: 2em;
+}
+
+.contenido {
+    margin-left: -12em;
+}
+
+.cal {
+    width: 4em;
+    z-index: 1;
+}
+
+.noticia {
+    margin-left: 25em;
+    margin-top: 1em;
+}
+
+h3 {
+    margin-left: 3.5em;
+    margin-top: -3em;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+    max-width: 57%;
+    color: #035e8f;
+}
+ .notImg {
+     margin-top: .5em;
+     margin-left: .2em;
+     width: 61%;
+ }
+
+ .titular p {
+     color: #282c30b4;
+     max-width: 62%;
+     font-size: .84em;
+ }
+
+ .esp {
+     margin-top: 3em;
+ }
+
+ .titular a {
+    text-decoration: none;
+    color: #005191;
+    font-size: .9em;
+ }
+
+ .titular a:hover {
+     color: #0878b4;
+ }
+
+ .notImg {
+     width: 50%;
+     margin-top: 1em;
+ }
+
+ hr {
+    border-color: #035e8f27;
+    background-color: #035e8f27;
+     margin-top: 2em;
+     max-width: 60%;
+ }  
+ 
+ .hTit {
+     margin-top: -2em;
+     margin-bottom: 1.2em;
+    margin-left: 24.8em;
+    max-width: 46%;
+ }
+
+ .aside {
+     position: fixed;
+     margin-left: 79em;
+     margin-top: -175em;
+     max-height: 10em;
+ }
+
+ .anclado {
+     margin-top: -196em;
+    
+ }
+
+ .invisible {
+     display: none;
+ }
+
+ .optAs {
+    height: 4em;
+ }
+
+ .optAs a {
+     z-index: 2;
+     margin-bottom: -6em;
+    text-align: left;
+ }
+
+ .optAs img{
+     position: relative;
+     z-index: 1;
+     background-color:#4881a6;
+     width: 18%;
+     padding-top: .4em;
+     padding-bottom: .3em;
+ }
+
+.optAs img:hover {
+    background-color: #003a68;
+}
+
+.optAs a:hover + div{
+     display: block;
+ }
+
+.forma {
+    display: none;
+    z-index: 0;
+    transform: rotate(45deg);
+    position: absolute;
+    background-color: #003a68;
+    height: 1.8em;
+    width: 1.8em;
+    margin-left: 1.25em;
+    margin-top: -3.1em;
+}
+
+ .optAs .texto {
+     margin-top: -3.6em;
+     margin-left: 4.7em;
+     font-size: .8em;
+ }
+
+ .texto strong {
+     color: #003a68;
+ }
+
+ .texto a {
+     text-decoration: none;
+ }
+
+ .texto span {
+     font-size: .7em;
+     color: #527999;
+ }
+
+ .optAs button {
+     position: absolute;
+     height: 4.7em;
+ }
+
+ .recomendaciones {
+     margin-left: 13em;
+     margin-top: 4.5em;
+     margin-bottom: 2em;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     row-gap: 20;
+     max-width: 77%;
+ }
+
+ h5 {
+     margin-bottom: .6em;
+ }
+
+ .recomendaciones a {
+     font-size: .9em;
+     text-decoration: none;
+     color: #004164;
+ }
+
+ .recomendaciones a:hover {
+     font-weight: 700;
+     color: #005786;
+ }
+
+ .footer img {
+     margin-top: 1em;
+     width: 8.5%;
+     margin-left: 12em;
+ }
+
+ .dir {
+     margin-left: 23em;
+     margin-top: -4.5em;
+     margin-bottom: 2em;
+ }
+
+ .dir p {
+     font-size: .8em;
+ }
+
+ .dir a {
+     text-decoration: none;
+     font-size: .7em;
+     color: #036092;
+ }
+
+ .con {
+     margin-left: 78em;
+     margin-top: -5.2em;
+     margin-bottom: 2em;
+ }
+
+ .con p {
+     font-size: .8em;
+     color: #000000be;
+ }
+
+ .con a {
+     text-decoration: none;
+ }
+
+ .con a:visited {
+     color: #036092;
+ }
+
